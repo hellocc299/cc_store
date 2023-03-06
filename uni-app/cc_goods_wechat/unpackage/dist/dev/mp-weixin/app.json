@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/order/order",
+    "pages/mine/mine",
+    "pages/home/cpns/delivery_way/delivery_way",
+    "pages/home/cpns/user_info/user_info",
+    "pages/order/page/integral/integral",
+    "pages/order/page/all/all",
+    "pages/mine/cpns/user_info/user_info",
+    "pages/mine/cpns/account/account",
+    "pages/mine/cpns/benefits/benefits",
+    "pages/mine/cpns/control/control",
+    "components/top_bar_list/top_bar_list",
+    "components/classify/classify",
+    "pages/order/page/activity/activity",
+    "components/order-item/order-item",
+    "pages/home/cpns/collect/collect",
+    "pages/order_detail/order_detail",
+    "pages/menu/menu"
+  ],
+  "usingComponents": {
+    "van-tab": "/wxcomponents/vant/dist/tab/index",
+    "van-tabs": "/wxcomponents/vant/dist/tabs/index",
+    "van-progress": "/wxcomponents/vant/dist/progress/index",
+    "van-button": "/wxcomponents/vant/dist/button/index",
+    "van-cell-group": "/wxcomponents/vant/dist/cell-group/index",
+    "van-cell": "/wxcomponents/vant/dist/cell/index",
+    "van-popup": "/wxcomponents/vant/dist/popup/index"
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "8a8a8a",
+    "selectedColor": "e75d4b",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/img/home.png",
+        "selectedIconPath": "static/img/home_selected.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "static/img/order.png",
+        "selectedIconPath": "static/img/order_selected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/img/mine.png",
+        "selectedIconPath": "static/img/mine_selected.png"
+      }
+    ]
+  }
+}

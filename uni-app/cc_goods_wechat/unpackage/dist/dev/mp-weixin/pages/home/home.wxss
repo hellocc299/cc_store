@@ -1,0 +1,16 @@
+.home {
+  position: relative;
+  height: 100vh;
+}
+.home .swiper-auto {
+  height: 400rpx;
+}
+.home .swiper-auto .swiper-img {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+.home .banner-img {
+  width: 100rpx;
+  height: 100rpx;
+}

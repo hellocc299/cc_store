@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "cc烘焙屋",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "delivery-way": "./cpns/delivery_way/delivery_way",
+    "user-info": "./cpns/user_info/user_info",
+    "collect": "./cpns/collect/collect"
+  }
+}

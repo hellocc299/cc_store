@@ -1,0 +1,32 @@
+.collect.data-v-8ab4bb27 {
+  height: 180rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.collect .gift.data-v-8ab4bb27 {
+  height: 80rpx;
+  width: 80rpx;
+}
+.collect .dept.data-v-8ab4bb27 {
+  width: 54%;
+}
+.collect .dept .title.data-v-8ab4bb27 {
+  font-size: 40rpx;
+  font-weight: 600;
+}
+.collect .dept .content.data-v-8ab4bb27 {
+  font-size: 26rpx;
+  white-space: wrap;
+  color: #979797;
+}
+.collect .detail.data-v-8ab4bb27 {
+  background-color: #EA7246;
+  color: #fff;
+  height: 60rpx;
+  width: 130rpx;
+  line-height: 60rpx;
+  border-radius: 10rpx;
+  font-size: 28rpx;
+  text-align: center;
+}

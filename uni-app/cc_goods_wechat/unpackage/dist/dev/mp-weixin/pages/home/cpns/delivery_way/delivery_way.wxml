@@ -1,0 +1,1 @@
+<view class="delivery-way common_bg data-v-df2cb635"><view class="delivery data-v-df2cb635"><image src="{{a}}" class="banner-img data-v-df2cb635"/><view class="data-v-df2cb635">配送</view></view><view class="self data-v-df2cb635"><image src="{{b}}" class="banner-img data-v-df2cb635" bindtap="{{c}}"/><view class="data-v-df2cb635">自提</view></view></view>

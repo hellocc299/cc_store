@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "top-bar-list": "../../../../components/top_bar_list/top_bar_list",
+    "classify": "../../../../components/classify/classify",
+    "order-item": "../../../../components/order-item/order-item"
+  }
+}

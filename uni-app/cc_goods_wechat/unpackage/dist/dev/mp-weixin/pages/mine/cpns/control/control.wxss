@@ -1,0 +1,28 @@
+.control.data-v-359ea308 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 340rpx;
+  margin-top: 30rpx;
+}
+.control .control-item.data-v-359ea308 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30rpx;
+  border-bottom: 1px solid #F4F3F3;
+  font-size: 30rpx;
+  padding-bottom: 30rpx;
+}
+.control .control-item .title.data-v-359ea308,
+.control .control-item .handle.data-v-359ea308 {
+  display: inline-block;
+  padding: 0 20rpx;
+}
+.control .special.data-v-359ea308 {
+  border: none !important;
+  padding-bottom: 16rpx;
+}
+.control .special .special-font.data-v-359ea308 {
+  color: #979797;
+}

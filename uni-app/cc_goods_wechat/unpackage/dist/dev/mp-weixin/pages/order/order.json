@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "订单",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "all": "./page/all/all"
+  }
+}

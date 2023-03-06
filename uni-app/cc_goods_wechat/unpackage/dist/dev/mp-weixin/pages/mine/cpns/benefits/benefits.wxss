@@ -1,0 +1,28 @@
+.benefits.data-v-1648a8df {
+  height: 320rpx;
+  margin-top: 30rpx;
+}
+.benefits .title.data-v-1648a8df {
+  font-weight: 700;
+  margin-top: 35rpx;
+  margin-left: 35rpx;
+}
+.benefits .benefits-content.data-v-1648a8df {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40rpx;
+}
+.benefits .benefits-content .benefits-item.data-v-1648a8df {
+  display: inline-block;
+  text-align: center;
+  height: 200rpx;
+  width: 200rpx;
+}
+.benefits .benefits-content .benefits-item image.data-v-1648a8df {
+  height: 80rpx;
+  width: 80rpx;
+}
+.benefits .benefits-content .benefits-item .content.data-v-1648a8df {
+  margin-top: 10rpx;
+}

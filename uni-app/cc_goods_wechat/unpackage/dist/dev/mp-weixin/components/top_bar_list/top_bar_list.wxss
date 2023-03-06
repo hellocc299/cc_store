@@ -1,0 +1,15 @@
+.top-bar-list.data-v-99b8597a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120rpx;
+  background-color: #fff;
+  box-shadow: 0 6rpx 6rpx 0 rgba(0, 0, 0, 0.08);
+}
+.top-bar-list .tb-item.data-v-99b8597a {
+  display: inline-block;
+  color: #737373;
+}
+.top-bar-list .tb-active.data-v-99b8597a {
+  color: #EA7246;
+}

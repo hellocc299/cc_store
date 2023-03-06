@@ -1,0 +1,70 @@
+server:
+  port: 9000
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cc_goods?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+    hikari:
+      pool-name: DateHikariCP
+      minimum-idle: 5
+      idle-timeout: 180000
+      maximum-pool-size: 10
+      auto-commit: true
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+    jackson:
+      serialization:
+        FAIL_ON_EMPTY_BEANS: false
+  jpa:
+    database: MYSQL
+    database-platform: org.hibernate.dialect.MySQL57Dialect
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    show-sql: true
+
+  cache:
+    type:
+      redis
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    jedis:
+      pool:
+        max-active: 200
+        max-wait: -1
+        max-idle: 10
+    timeout: 1000
+    lettuce:
+      shutdown-timeout: 0ms
+  mvc:
+    servlet:
+      load-on-startup: 1
+
+# jwt 属性配置
+jwt:
+  # JWT存储的请求头
+  tokenHeader: Authorization
+  # token的超期限时间(2h)
+  expiration: 7200
+  # refresh_token的超期限时间(7d)
+  refresh_expiration: 604800
+  # JWT负载拿到开头
+  tokenHead: Bearer
+  # salt
+  secret: cc_drink_salt
+
+# 配置外部访问文件
+web:
+  show: /img/**
+  upload-path: /Users/cc/Desktop/cc_goods/cc_drink_server/image/
+  host: http://localhost:9000/img/
+  wx-request: https://api.weixin.qq.com/sns/jscode2session
+  app-id: wx1016fe9c7f9fbfdc
+  app-secret: 56b194481dcc7d83a130b833cb0eb50d

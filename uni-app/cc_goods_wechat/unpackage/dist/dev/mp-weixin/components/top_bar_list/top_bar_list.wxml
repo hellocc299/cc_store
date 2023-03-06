@@ -1,0 +1,1 @@
+<view class="top-bar-list data-v-99b8597a"><block wx:for="{{a}}" wx:for-item="item" wx:key="d"><view class="{{['tb-item', 'data-v-99b8597a', item.b && 'tb-active']}}" bindtap="{{item.c}}">{{item.a}}</view></block></view>

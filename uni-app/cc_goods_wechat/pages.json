@@ -1,0 +1,212 @@
+{
+	"pages": [
+	   {
+				"path" : "pages/home/home",
+				"style" :                                                                                    
+				{
+					"navigationBarTitleText": "cc烘焙屋",
+					"navigationBarBackgroundColor": "#fff",
+					"navigationBarTextStyle": "black",
+					"enablePullDownRefresh": false
+				}
+				
+      }
+      ,{
+        "path" : "pages/order/order",
+        "style" :                                                                                    
+        {
+          "navigationBarTitleText": "订单",
+					"navigationBarBackgroundColor": "#fff",
+					"navigationBarTextStyle": "black",
+          "enablePullDownRefresh": false,
+					"usingComponents": {
+					}
+        }
+      }
+      ,
+			{
+        "path" : "pages/mine/mine",
+        "style" :                                                                                    
+        {
+          "navigationBarTitleText": "我的",
+					"navigationBarBackgroundColor": "#fff",
+					"navigationBarTextStyle": "black",
+          "enablePullDownRefresh": false
+        }
+        
+      },
+			{
+          "path" : "pages/home/cpns/delivery_way/delivery_way",
+          "style" :                                                                                    
+          {
+              "navigationBarTitleText": "",
+              "enablePullDownRefresh": false
+          }
+      }
+        ,{
+            "path" : "pages/home/cpns/user_info/user_info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/page/integral/integral",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/page/all/all",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/cpns/user_info/user_info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+								"usingComponents": {
+								}
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/cpns/account/account",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/cpns/benefits/benefits",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/cpns/control/control",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/top_bar_list/top_bar_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/classify/classify",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order/page/activity/activity",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/order-item/order-item",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/home/cpns/collect/collect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/order_detail/order_detail",
+            "style" : {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+				{
+					"path" : "pages/menu/menu",
+					"style" : {
+					    "navigationBarTitleText": "点单",
+					    "enablePullDownRefresh": false
+					}
+				}
+    ],
+		"tabBar": {
+			"color": "8a8a8a",
+			"selectedColor": "e75d4b",
+			"list": [
+				{
+					"pagePath": "pages/home/home",
+					"text": "首页",
+					"iconPath": "static/img/home.png",
+					"selectedIconPath": "static/img/home_selected.png"
+				},
+				{
+					"pagePath": "pages/order/order",
+					"text": "订单",
+					"iconPath": "static/img/order.png",
+					"selectedIconPath": "static/img/order_selected.png"
+				},
+				{
+					"pagePath": "pages/mine/mine",
+					"text": "我的",
+					"iconPath": "static/img/mine.png",
+					"selectedIconPath": "static/img/mine_selected.png"
+				}
+			]
+		},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-tab": "/wxcomponents/vant/dist/tab/index",
+			"van-tabs": "/wxcomponents/vant/dist/tabs/index",
+			"van-progress": "/wxcomponents/vant/dist/progress/index",
+			"van-button": "/wxcomponents/vant/dist/button/index",
+			"van-cell-group": "/wxcomponents/vant/dist/cell-group/index",
+			"van-cell": "/wxcomponents/vant/dist/cell/index",
+			"van-popup": "/wxcomponents/vant/dist/popup/index"
+		}
+	},
+	"uniIdRouter": {}
+}

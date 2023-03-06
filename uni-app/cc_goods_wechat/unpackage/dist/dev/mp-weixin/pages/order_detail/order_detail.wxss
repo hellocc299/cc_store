@@ -1,0 +1,110 @@
+.order-detail.data-v-a1253e17 {
+  height: 100vh;
+  overflow-y: auto;
+}
+.order-detail .header.data-v-a1253e17 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30rpx;
+  background-color: #fff;
+  height: 200rpx;
+}
+.order-detail .header .order-type .order-statu.data-v-a1253e17,
+.order-detail .header .order-type .type.data-v-a1253e17 {
+  display: inline-block;
+}
+.order-detail .header .order-type .type.data-v-a1253e17 {
+  height: 60rpx;
+  font-size: 44rpx;
+  margin-top: 18rpx;
+  margin-left: 14rpx;
+  font-weight: 700;
+}
+.order-detail .header .order-type .order-statu.data-v-a1253e17 {
+  background-color: #e53828;
+  color: #fff;
+  height: 42rpx;
+  width: 100rpx;
+  line-height: 42rpx;
+  border-radius: 30rpx;
+  font-size: 28rpx;
+  text-align: center;
+  margin-bottom: 10rpx;
+}
+.order-detail .header .order-type .content.data-v-a1253e17 {
+  margin-top: 22rpx;
+  font-size: 24rpx;
+  color: #737373;
+}
+.order-detail .header image.data-v-a1253e17 {
+  height: 100%;
+  width: 180px;
+}
+.order-detail .address.data-v-a1253e17 {
+  height: 250rpx;
+}
+.order-detail .address .address-detail.data-v-a1253e17 {
+  display: inline-block;
+  margin-left: 20rpx;
+  width: 80%;
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.order-detail .address .address-detail .linkman.data-v-a1253e17 {
+  margin-top: 48rpx;
+  color: #737373;
+  font-weight: 500;
+}
+.order-detail .address image.data-v-a1253e17 {
+  margin: 32rpx 0 150rpx 20rpx;
+  height: 40rpx;
+  width: 40rpx;
+}
+.order-detail .order.data-v-a1253e17 {
+  height: auto;
+  padding: 10rpx 0;
+}
+.order-detail .order .order-info.data-v-a1253e17 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40rpx 30rpx;
+}
+.order-detail .order .order-info .info.data-v-a1253e17 {
+  display: flex;
+  align-items: center;
+}
+.order-detail .order .order-info .info .image.data-v-a1253e17 {
+  display: flex;
+  align-items: center;
+}
+.order-detail .order .order-info .info image.data-v-a1253e17 {
+  width: 150rpx;
+  height: 120rpx;
+  border-radius: 10%;
+}
+.order-detail .order .order-info .detail.data-v-a1253e17 {
+  display: inline-block;
+}
+.order-detail .price.data-v-a1253e17 {
+  height: 320rpx;
+}
+.order-detail .order-type.data-v-a1253e17 {
+  height: 160rpx;
+}
+.order-detail .order-time.data-v-a1253e17 {
+  height: 200rpx;
+}
+.data-v-a1253e17 .van-cell {
+  padding: var(--cell-vertical-padding, 4px) var(--cell-horizontal-padding, 16px) !important;
+}
+.data-v-a1253e17 .van-cell__title {
+  color: #737373;
+}
+.data-v-a1253e17 .van-cell__value {
+  color: #000;
+}
+.data-v-a1253e17 .van-cell-group {
+  padding: 20rpx;
+}

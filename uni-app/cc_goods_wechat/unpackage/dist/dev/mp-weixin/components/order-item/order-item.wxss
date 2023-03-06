@@ -1,0 +1,60 @@
+.order-item.data-v-d4921d0a {
+  height: 450rpx;
+}
+.order-item .header.data-v-d4921d0a {
+  height: 45rpx;
+  width: 200rpx;
+  border-top-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+  background-image: linear-gradient(to right, #e53828, #f5aa4b);
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 45rpx;
+  font-weight: 500;
+  color: #fff;
+}
+.order-item .addr-statu.data-v-d4921d0a {
+  margin: 14rpx auto;
+}
+.order-item .addr-statu .addr.data-v-d4921d0a,
+.order-item .addr-statu .statu.data-v-d4921d0a {
+  display: inline-block;
+}
+.order-item .addr-statu .statu.data-v-d4921d0a {
+  color: #EA7246;
+}
+.order-item .order-image.data-v-d4921d0a {
+  margin: 14rpx auto;
+  width: 86%;
+}
+.order-item .order-image image.data-v-d4921d0a {
+  width: 180rpx;
+  height: 150rpx;
+  border-radius: 10%;
+  margin-right: 20rpx;
+}
+.order-item .time-count.data-v-d4921d0a {
+  margin: 14rpx auto;
+}
+.order-item .time-count .time.data-v-d4921d0a {
+  color: #737373;
+  font-size: 26rpx;
+}
+.order-item .time-count .count.data-v-d4921d0a {
+  font-weight: 600;
+}
+.order-item .delivery-delete.data-v-d4921d0a {
+  margin: 14rpx auto;
+}
+.order-item .delivery-delete .delivery.data-v-d4921d0a {
+  text-align: center;
+  line-height: 70rpx;
+}
+.order-item .delivery-delete .van-button.data-v-d4921d0a {
+  width: 40rpx;
+}
+.overall.data-v-d4921d0a {
+  display: flex;
+  justify-content: space-between;
+  width: 86%;
+}

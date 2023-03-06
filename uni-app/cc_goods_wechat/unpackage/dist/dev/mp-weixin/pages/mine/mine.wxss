@@ -1,0 +1,9 @@
+.mine.data-v-7c2ebfa5 {
+  height: 100vh;
+  position: relative;
+}
+.mine .content.data-v-7c2ebfa5 {
+  width: 100%;
+  position: absolute;
+  top: 20rpx;
+}

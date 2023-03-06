@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "user-info": "./cpns/user_info/user_info",
+    "account": "./cpns/account/account",
+    "benefits": "./cpns/benefits/benefits",
+    "control": "./cpns/control/control"
+  }
+}

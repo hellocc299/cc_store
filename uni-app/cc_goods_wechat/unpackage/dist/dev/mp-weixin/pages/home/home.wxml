@@ -1,0 +1,1 @@
+<view class="home bgc"><view class="top-swiper"><swiper class="swiper-auto"><swiper-item><image src="{{a}}" class="swiper-img" mode="auto"/></swiper-item></swiper></view><delivery-way u-i="b21c93cc-0" bind:__l="__l"/><user-info u-i="b21c93cc-1" bind:__l="__l"/><collect u-i="b21c93cc-2" bind:__l="__l"/></view>

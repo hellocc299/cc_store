@@ -1,0 +1,19 @@
+.classify.data-v-90ad0908 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 26rpx;
+}
+.classify .classify-item.data-v-90ad0908 {
+  height: 80rpx;
+  width: 180rpx;
+  background-color: #E5E5E5;
+  text-align: center;
+  line-height: 80rpx;
+  color: #737373;
+  border-radius: 20rpx;
+  font-size: 28rpx;
+}
+.classify .classify-active.data-v-90ad0908 {
+  background-color: #fff;
+  color: #2B2B2B;
+}

@@ -1,0 +1,19 @@
+.account.data-v-70e5d9d4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 150rpx;
+  margin-top: 30rpx;
+}
+.account .account-item.data-v-70e5d9d4 {
+  display: inline-block;
+  text-align: center;
+}
+.account .account-item .number.data-v-70e5d9d4 {
+  font-weight: 700;
+}
+.account .account-item .name.data-v-70e5d9d4 {
+  margin-top: 8rpx;
+  font-size: 28rpx;
+  color: #979797;
+}
